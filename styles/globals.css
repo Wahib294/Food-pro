@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App {
+
+    height: 570px;
+}
+
+.slide img {
+    width: 20rem;
+    margin: 0 auto; 
+}
+
+.slide {
+    transform: scale(0.8);
+    transition: transform 300ms;
+}
+
+.activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.arrow {
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    border: 9px solid white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 11px rgba(0, 0, 0, 0.18);
+}
+
+.arrow svg {
+    transition: color 300ms;
+}
+
+.arrow svg:hover {
+    color: #68edff;
+}
+.next {
+    right: 10%;
+    top: 100%;
+    margin-top: 26px;
+}
+.prev {
+    left: 10%;
+    top: 100%;
+    margin-top: 26px;
+}
+@media (min-width: 768px) {
+    .next {
+        right: 37%;
+        top: 100%;
+        margin-top: 26px;
+    }
+}
+
+@media (min-width: 768px) {
+    .prev {
+        left: 37%;
+        top: 100%;
+        margin-top: 26px;
+    }
+}
+
+.slick-dots{
+    margin: 0px 0px -30px 0px !important;
+}
+.slick-dots li button::before {
+    color: black !important;
+}
+
+.slick-dots li.slick-active button::before {
+    color: red !important;
+}
