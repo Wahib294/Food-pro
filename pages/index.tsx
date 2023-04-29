@@ -115,11 +115,37 @@ export default function IndexPage() {
 			<p className='text-xl md:text-6xl font-extrabold mt-6'>Trending food</p>
 			</div>
 		</div>
-			<div className=" my-20">
+			<div className=" mt-20">
 				<center>
       			<SwiperComponent />
 				</center>
     		</div>
+			<div className="flex flex-col md:flex-row container">
+			<div className="w-full md:w-1/2 flex">
+				<div className="p-8 md:mt-11">
+					<p className='text-red-700 font-bold'>Customer Serviced</p> 
+					 <br />
+					<p className='text-3xl md:text-6xl font-bold'>Happy Number of <br /> Happy Customers</p>
+				<div className='md:flex  md:gap-10'>
+				<div className=' mt-16'>
+					<p className='text-red-700 text-4xl font-bold md:mb-3 md:ml-6'>9,500</p>
+					<p>Customers Serviced</p>
+				</div>
+				<div className='justify-center mt-16'>
+					<p className='text-red-700 text-4xl font-bold md:mb-3 md:ml-8'>500</p>
+					<p>Positive Feedback</p>
+				</div>
+				<div className=' mt-16'>
+					<p className='text-red-700 text-4xl font-bold md:mb-3 md:ml-3'>400</p>
+					<p>Official Store</p>
+				</div>
+				</div> 
+			</div>
+			</div>
+			<div className="w-full md:w-1/2 flex items-center justify-center">
+				<img src="/image4.png" alt="Image" className="max-h-full max-w-full" />
+			</div>
+			</div>
 		</>
 	)
 }
