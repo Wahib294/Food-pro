@@ -1,7 +1,6 @@
 import { MainNav } from "@/components/main-nav"
 import { siteConfig } from "@/config/site"
 import Link from "next/link"
-import {Icons} from "@/components/icons"
 export function SiteHeader() {
 	return (
 		<header className="sticky top-0 z-40 w-full bg-white text-lg text-slate-800">
@@ -15,7 +14,7 @@ export function SiteHeader() {
 					</Link>
 				</div>
 				<div className="container flex items-center space-x-4 md:justify-end md:space-x-0  ">
-					<MainNav items={siteConfig.mainNav} />
+					<MainNav items={siteConfig.mainNav}/>
 				</div>
 			</div>
 		</header>

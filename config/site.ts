@@ -17,17 +17,22 @@ export const siteConfig: SiteConfig = {
 	mainNav: [
 		{
 			title: "Home",
-			href: "/",
+			href: "/#home",
+			active: true,
+		},
+		{
+			title: "Our Brands",
+			href: "/#brands",
 			active: false,
 		},
 		{
-			title: "About",
-			href: "/about-us",
+			title: "About Us",
+			href: "/#about-us",
 			active: false,
 		},
 		{
-			title: "Contact",
-			href: "/contact",
+			title: "Contact Us",
+			href: "/#contact",
 			active: false,
 		}
 	],

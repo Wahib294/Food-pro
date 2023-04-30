@@ -7,7 +7,7 @@
 
 .App {
 
-    height: 570px;
+    height: 450px;
 }
 
 .slide img {
@@ -77,4 +77,24 @@
 
 .slick-dots li.slick-active button::before {
     color: red !important;
+}
+
+.font-medium{
+    font-weight: 900;
+}
+.placehold:focus {
+    outline: none;
+    border: 0px;
+}
+.placehold{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.placeholdd:focus {
+    outline: none;
+    border: 0px;
+}
+.placeholdd{
+    padding-left: 10px;
+    padding-top: 10px;
 }
