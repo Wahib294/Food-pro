@@ -119,7 +119,7 @@ useEffect(() => {
 }
   }, [router.asPath]);
 	return (
-		<div className="flex gap-6 md:gap-10">
+		<div className="flex gap-6 md:gap-10" >
 			{nav?.length ? (
 				<nav className="hidden gap-10  md:flex">
 					{nav?.map(
