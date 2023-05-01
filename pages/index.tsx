@@ -48,7 +48,7 @@ export default function IndexPage() {
 				</span>
 				</div>
 				<div className=''>
-					<img src="./halal.png" width={210} height={210}	alt=""className=" md:mb-8 mx-auto mt-10 md:mt-0 -mb-7 md:mt-14 md:-mr-12" />
+					<img src="./halal.png" width={210} height={210}	alt=""className=" md:mb-8 mx-auto mt-10 -mb-7 md:mt-14 md:-mr-12" />
 				</div>
 				</div>
 				</div> 
