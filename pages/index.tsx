@@ -21,7 +21,7 @@ export default function IndexPage() {
     const name = form.name.value;
     const email = form.email.value;
     const message = form.message.value;
-    const mailtoLink = `mailto:example@example.com?subject=Contact%20Form&body=${message}%0A%0AFrom:%20${name}%0AEmail:%20${email}`;
+    const mailtoLink = `mailto:ialquqa@gmail.com?subject=Contact%20Form&body=${message}%0A%0AFrom:%20${name}%0AEmail:%20${email}`;
     window.location.href = mailtoLink;
   };
 	return (
@@ -214,11 +214,11 @@ export default function IndexPage() {
 			</div>
 			<div className='bg-zinc-800 h-max md:h-96  w-full pb-16'>
 				<div className='container flex flex-col pt-10 md:flex-row md:pt-24 md:h-fit gap-14'>
-					<div className='md:w-1/6 flex justify-center'>
+					<div className='md:w-1/6 flex justify-center md:pb-12'>
 						<img src="./Footer.png" alt="" className='my-auto'/>
 					</div>
 					<div className='flex w-32 md:w-1/6 md:justify-center mx-auto'>
-					<div className='flex flex-col gap-3 md:justify-center text-white '>
+					<div className='flex flex-col gap-3 text-white '>
 						<p className='font-bold'>Company</p>
 						<Link scroll={false}  href="/#home">Home</Link>
 						<Link scroll={false}  href="/#brands">Our Brand</Link>
@@ -227,27 +227,29 @@ export default function IndexPage() {
 					</div>
 					</div>
 					<div className='flex w-32 md:w-1/6 md:justify-center mx-auto'>
-					<div className='flex flex-col gap-3 justify-center md:mb-28  text-white '>
+					<div className='flex flex-col gap-3 md:mb-28  text-white '>
 						<p className='font-bold'>Our Product</p>
 						<p>Donners </p>
 					</div>
 					</div>
 					<div className='flex md:w-1/6 md:justify-center mx-auto'>
-					<div className='flex flex-col gap-3 justify-center md:mb-20  text-white '>
+					<div className='flex flex-col gap-3 md:mb-20  text-white '>
 						<p className='font-bold'>Terms & policies</p>
 						<p>Terms of Service</p>
 						<p>Privacy Policy</p>
 					</div>
 					</div>
 					<div className='flex w-32 md:w-1/6 md:justify-center mx-auto'>
-					<div className='flex flex-col gap-3 justify-center md:mb-20  text-white '>
+					<div className='flex flex-col gap-1 justify-center md:mb-20  text-white '>
 						<p className='font-bold'>Contact</p>
-						<p>00642102551973</p>
-						<p>ialquqa@gmail.com</p>
+						<p>Mr Iyad</p>
+						<Link href="tel:+642108115906">+64 210 811 5906</Link>
+						<Link href="tel:+642102551973">+64 210 255 1973</Link>
+						<Link href="mailto:ialquqa@gmail.com">ialquqa@gmail.com</Link>
 					</div>
 					</div>
 				</div>
-				<div className='flex items-end justify-center h-24'> 
+				<div className='flex items-end justify-center mt-10'> 
 				<p className='flex items-end justify-center text-white h-full'>© Turkish Kebabs 2023 - All Rights Reserved</p>
 				</div>
 			</div>
