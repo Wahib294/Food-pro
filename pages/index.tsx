@@ -32,7 +32,7 @@ export default function IndexPage() {
 				<h1 className="text-6xl md:text-[68px] md:leading-[80px] font-extrabold" id='heading'><span className='text-red-700'>Turkish</span> <span className='text-gray-800'>Doner <br /> Kebab</span> <span className='text-red-700'>Distributor</span> </h1>
 				<br />
 				<p className="text-gray-600">We will deliver your Doner within 30 minutes in your town. <br /> Halal Certified, Lamb Doners, Lamb and Beef mix Doner Gluten free Doner</p>
-				<div className='mt-10 bg-red-700 w-fit px-9 py-5 font-semibold rounded-3xl text-white shadow-red-700 shadow-lg  hover:bg-red-600 hover:cursor-pointer'> <Link href={"/#trend"} scroll={false}> TRENDING FOOD </Link></div>
+				<Link href={"/#trend"} scroll={false}><div className='mt-10 bg-red-700 w-fit px-9 py-5 font-semibold rounded-3xl text-white shadow-red-700 shadow-lg  hover:bg-red-600 hover:cursor-pointer'> TRENDING FOOD </div></Link>
 				<div className='md:flex flex-col md:flex-row items-center md:mt-8 md:-ml-2 mt-20 '>
 				<div className='flex items-center mx-auto mt-8 md:pt-4  md:-ml-2 bg-zinc-300 bg-opacity-20 rounded-xl' >
 				<img src="./image2.png" alt=""className="-ml-7 -mb-3 md:-mb-10 mt-5 md:-mt-2 md:-ml-6 md:-mr-5" />
