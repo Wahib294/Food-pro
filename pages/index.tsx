@@ -179,12 +179,6 @@ export default function IndexPage() {
 					<h1 className='text-5xl font-bold'>Foodservice Suppliers</h1>
 					<p className='my-5'>Through our extensive network of over 100 leading food service suppliers, <br /> we ensure reliable and efficient supply agreements for our valued customers.</p>
 				</center>
-				<div className='flex flex-col lg:flex-row items-center justify-center lg:container gap-10 my-24' id={id1}>
-					<img  className='my-6 lg:my-0' src="./log.png" alt="" />
-					<img  className='my-6 lg:my-0' src="./log.png" alt="" />
-					<img  className='my-6 lg:my-0' src="./log.png" alt="" />
-					<img  className='my-6 lg:my-0' src="./log.png" alt="" />
-				</div>
 			</div>
 			<div className='bg-red-700 h-max lg:h-96 w-full pb-16' id={id2}>
 				<div className='lg:flex container'>
