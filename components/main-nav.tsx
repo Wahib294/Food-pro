@@ -65,7 +65,7 @@ useEffect(() => {
     }));
     setNav(updatedNav);
 			} 
-			if (aboutRect.top <= 250  && aboutRect.bottom >= 0) {
+			if (aboutRect.top <= 250  && aboutRect.bottom >= 500) {
 			if (flags[3] === true) {
 				    return;
 			}
@@ -80,7 +80,7 @@ useEffect(() => {
     }));
     setNav(updatedNav);
 	  } 
-	  if (contactRect.top <= 0 && contactRect.bottom >= 0) {
+	  if (contactRect.top <= 500 && contactRect.bottom >= 0) {
 			if (flags[2] === true) {
 				    return;
 			}

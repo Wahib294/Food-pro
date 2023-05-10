@@ -3,17 +3,17 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react';
 
 export default function IndexPage() {
-	const [id1, setId1] = useState('');
-	const [id2, setId2] = useState('contact');
+// 	const [id1, setId1] = useState('');
+// 	const [id2, setId2] = useState('contact');
 
-  useEffect(() => {
-    const screenWidth = window.innerWidth;
-	console.log(screenWidth);
-    const iid2 = screenWidth < 768 ? 'contact' : '';
-	const iid1 = screenWidth < 768 ? '' : 'contact';
-    setId1(iid1);
-	setId2(iid2);
-  }, []);
+//   useEffect(() => {
+//     const screenWidth = window.innerWidth;
+// 	console.log(screenWidth);
+//     const iid2 = screenWidth < 768 ? 'contact' : '';
+// 	const iid1 = screenWidth < 768 ? '' : 'contact';
+//     setId1(iid1);
+// 	setId2(iid2);
+//   }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -170,11 +170,11 @@ export default function IndexPage() {
 				</div> 
 			</div>
 			</div>
-			<div className="w-full lg:w-1/2 flex items-center justify-center mt-20 lg:mt-20">
+			<div className="w-full lg:w-1/2 flex items-center justify-center mt-20 lg:mt-20 mb-32">
 				<img src="/image4.png" alt="Image" className="max-h-full max-w-full" />
 			</div>
 			</div>
-			<div className='container my-24 lg:mt-[11rem]'>
+			{/* <div className='container my-24 lg:mt-[11rem]'>
 				<center>
 					<h1 className='text-5xl font-bold'>Foodservice Suppliers</h1>
 					<p className='my-5'>Through our extensive network of over 100 leading food service suppliers, <br /> we ensure reliable and efficient supply agreements for our valued customers.</p>
@@ -185,8 +185,8 @@ export default function IndexPage() {
 					<img  className='my-6 lg:my-0' src="./log.png" alt="" />
 					<img  className='my-6 lg:my-0' src="./log.png" alt="" />
 				</div>
-			</div>
-			<div className='bg-red-700 h-max lg:h-96 w-full pb-16' id={id2}>
+			</div> */}
+			<div className='bg-red-700 h-max lg:h-96 w-full pb-16' id="contact">
 				<div className='lg:flex container'>
 				<div className='text-white font-semibold pt-20 w-fit'>
 					<p className=''> Contact Us </p>
