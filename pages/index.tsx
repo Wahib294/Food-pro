@@ -245,7 +245,7 @@ export default function IndexPage() {
 						<p>Mr Iyad</p>
 						<Link href="tel:+642108115906">+64 210 811 5906</Link>
 						<Link href="tel:+642102551973">+64 210 255 1973</Link>
-						<Link href="mailto:ialquqa@gmail.com">info@turkishdkd.com</Link>
+						<Link href="mailto:info@turkishdkd.com">info@turkishdkd.com</Link>
 					</div>
 					</div>
 				</div>
