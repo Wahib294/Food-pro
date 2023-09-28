@@ -21,7 +21,7 @@ export default function IndexPage() {
     const name = form.name.value;
     const email = form.email.value;
     const message = form.message.value;
-    const mailtoLink = `mailto:ialquqa@gmail.com?subject=Contact%20Form&body=${message}%0A%0AFrom:%20${name}%0AEmail:%20${email}`;
+    const mailtoLink = `info@turkishdkd.com?subject=Contact%20Form&body=${message}%0A%0AFrom:%20${name}%0AEmail:%20${email}`;
     window.location.href = mailtoLink;
   };
 	return (
@@ -245,7 +245,7 @@ export default function IndexPage() {
 						<p>Mr Iyad</p>
 						<Link href="tel:+642108115906">+64 210 811 5906</Link>
 						<Link href="tel:+642102551973">+64 210 255 1973</Link>
-						<Link href="mailto:ialquqa@gmail.com">ialquqa@gmail.com</Link>
+						<Link href="mailto:ialquqa@gmail.com">info@turkishdkd.com</Link>
 					</div>
 					</div>
 				</div>
