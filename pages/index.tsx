@@ -21,7 +21,7 @@ export default function IndexPage() {
     const name = form.name.value;
     const email = form.email.value;
     const message = form.message.value;
-    const mailtoLink = `info@turkishdkd.com?subject=Contact%20Form&body=${message}%0A%0AFrom:%20${name}%0AEmail:%20${email}`;
+    const mailtoLink = `mailto:info@turkishdkd.com?subject=Contact%20Form&body=${message}%0A%0AFrom:%20${name}%0AEmail:%20${email}`;
     window.location.href = mailtoLink;
   };
 	return (
